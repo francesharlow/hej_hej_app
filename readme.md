@@ -1,12 +1,12 @@
 ## App Description
 Hej Hej is a fun, simple full-stack Javascript app for studying Swedish vocabulary and grammar.
 
-## User Stories
-As a user, I can play a flashcard game with randomly generated cards that will test and expand my Swedish vocabulary. A user can play the game without logging in, but it will not save their scores to keep track of their learning progress. 
+## MVP User Stories
+As a user, I can play a flashcard game with randomly generated cards from a pre-existing database of Swedish words. Words will consist of the type of speech, the tense (if applicable), an image, the English translation, and conjugations.
 
-As a user, I can log in to create, read, update, and destroy vocabulary words. As a user, I can log in to keep track of my progress (perhaps using Charts.js)? 
+The flashcards will either display an image or text, and the user will be enter the translation into an input field. If the translation is correct, they can continue on to the next card and they get a point. If not, their score resets to zero and the game restarts. 
 
-As a user, I can listen to pronunciations, access external educational resources, and see the weather/Instagrams/listen to the radio/read the headlines in Stockholm.
+As a user, I can log in to create, read, update, and destroy the vocabulary words. My profile will keep track of my progress, listing high scores (perhaps using Chart.js), listening external educational resources, and possibly displaying the weather/Instagrams/radio/headlines in Stockholm.
 
 ##Wireframes
 ![wireframe_image]
