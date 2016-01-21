@@ -12,19 +12,17 @@ app.use(express.static(__dirname + '/bower_components'));
 app.set('view engine', 'ejs')
 
 //Database
-// var sequelize = new Sequelize('database', 'username', 'password', {
-//   host: 'localhost',
-//   dialect: 'mysql'|'mariadb'|'sqlite'|'postgres'|'mssql',
-
-//   pool: {
-//     max: 5,
-//     min: 0,
-//     idle: 10000
-//   },
-
-//   // SQLite only
-//   storage: 'path/to/database.sqlite'
-// });
+// sequelize initialization
+var sequelize = new Sequelize("postgres://username:password@localhost:5432/dbname");
+ 
+// check database connection
+sequelize.authenticate().complete(function(err) {
+    if (err) {
+      console.log('Unable to connect to the database:', err);
+    } else {
+      console.log('Connection has been established successfully.');
+    }
+});
 
 // Routes
 app.get('/', function(req, res){
