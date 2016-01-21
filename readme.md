@@ -27,9 +27,9 @@ Users' profiles will show which words they often get wrong, as well as their pro
 * SEAN (Sequelize, Express, Angular, and Node) stack
 
 ##Wireframes
-![landing_page]
-![profile_page]
-![flashcard_page]
+![landing_page](https://github.com/francesharlow/hej_hej_app/blob/master/img/landing_page.png)
+![profile_page](https://github.com/francesharlow/hej_hej_app/blob/master/img/profile_page.png)
+![flashcard_page](https://github.com/francesharlow/hej_hej_app/blob/master/img/flashcard_page.png)
 
 ##ERDs
 ![erd_image]
