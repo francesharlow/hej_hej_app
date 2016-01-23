@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 var Sequelize = require('sequelize');
 
 var sequelize = new Sequelize('postgres://localhost:5432/hej_hej_app')
-console.log(sequelize);
+// console.log(sequelize);
 
 sequelize
   .authenticate()
