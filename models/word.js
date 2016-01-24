@@ -8,10 +8,6 @@ module.exports = function(sequelize, DataTypes) {
     english: {
       type: Sequelize.STRING
     },
-    type: {
-      type: Sequelize.STRING
-    },
-
     imgUrl: {
       type: Sequelize.STRING,
       allowNull: false
