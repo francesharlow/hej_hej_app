@@ -1,0 +1,18 @@
+{
+  "development": {
+  "username": "francesharlow",
+  "password": "DATABASE_PASSWORD",
+  "database": "hej_hej_app",
+  "host": "127.0.0.1",
+  "dialect": "postgres",
+  "port": "5432"
+  },
+  "production": {
+  "username": "francesharlow",
+  "password": "DATABASE_PASSWORD",
+  "database": "hej_hej_app",
+  "host": "PRODUCTION_DATABASE_URL",
+  "dialect": "postgres",
+  "port": "5432"
+  }
+}

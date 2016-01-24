@@ -1,20 +1,37 @@
 {
   "name": "hej_hej_app",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Hej Hej is a fun, simple full-stack Javascript app for studying Swedish vocabulary and grammar.",
+  "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .bin/www"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francesharlow/hej_hej_app.git"
+  },
+  "keywords": [],
+  "author": "Frances Harlow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francesharlow/hej_hej_app/issues"
+  },
+  "homepage": "https://github.com/francesharlow/hej_hej_app#readme",
   "dependencies": {
-    "bcrypt": "^0.8.5",
-    "body-parser": "^1.13.3",
+    "body-parser": "^1.14.2",
+    "bower": "^1.7.2",
     "connect-session-sequelize": "^3.0.0",
     "cookie-parser": "^1.4.1",
+    "debug": "~2.2.0",
     "ejs": "^2.3.4",
-    "express": "^4.13.4",
-    "express-session": "^1.13.0",
+    "express": "^4.13.3",
+    "morgan": "~1.6.1",
     "pg": "^4.4.3",
     "pg-hstore": "^2.3.2",
-    "sequelize": "^3.18.0"
+    "semantic-ui": "^2.1.8",
+    "sequelize": "^3.18.0",
+    "sequelize-cli": "^2.3.1",
+    "serve-favicon": "~2.3.0"
   }
 }
